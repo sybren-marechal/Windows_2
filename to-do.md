@@ -10,7 +10,10 @@ Michiel
 
 * installatie DNS
 * installatie domain controller
-* windows 10 hebben in Virtual Box
+
+
+
+* p. 49-50: IPv4 adressen toekennen aan InternetConnectie en LANConnectie
 
 Sybren
 

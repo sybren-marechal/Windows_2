@@ -5,22 +5,22 @@
 * While booting press '_CTRL + R'_ .
 * Press F2 and select: _Create new VD_
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 * Chose RAID-1 and select the first 2 disks
 
  
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 * Select Virtual Disks and press F2 and go to initialization \(fast init\)
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%283%29.png)
 
 * Select Disk Group and press F2 again to manage the dedicated HotSpares
   * Select the correct disk
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 **Windows Server 2016 installation**
 
@@ -33,11 +33,11 @@
   **ERROR**: We looked over a warning message that told us that Etcher doesn't support to burn Windows images. So we decided to use Rufus instead.  
    __
 
-![Warning message Etcher](.gitbook/assets/image%20%283%29.png)
+![Warning message Etcher](.gitbook/assets/image%20%286%29.png)
 
 * After flashing the image files using Rufus, we tried to boot again from these USB's and encountered the same error message again...
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 This error message was solved using the following steps:
 
