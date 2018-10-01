@@ -25,3 +25,49 @@ Never surf on the internet with your server!
 
 
 
+
+
+installatie voor netwerk routering
+
+manage
+
+ad roles en featers
+
+role based
+
+vink remote access
+
+
+
+fink routing an bij role services
+
+add al featers
+
+install
+
+
+
+Tools
+
+Routing and remote acces
+
+CMSV1
+
+rechter muisknop configrue
+
+
+
+
+
+kies je voor NAT 
+
+
+
+Select je WAN
+
+NExt dan LAN
+
+
+
+
+
