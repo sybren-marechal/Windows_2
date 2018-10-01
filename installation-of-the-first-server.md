@@ -19,7 +19,7 @@ Never surf on the internet with your server!
 
 ![No more hardware problems.](.gitbook/assets/image.png)
 
-IPv4 ADDRESSEN VAN INTERNETCONNECTION EN LANCONNECTION NOG TOEVOEGEN!!!!
+
 
 * rename the server to 'CMSV1'
 
