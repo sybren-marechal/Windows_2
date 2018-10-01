@@ -4,8 +4,6 @@ description: The configuration of the IP-adresses
 
 # IP configuration
 
-The scheme with ip configuration
-
 ## DOMAIN controller connection
 
 Domain controller   
@@ -44,7 +42,7 @@ installatie
 
 
 
-
+The scheme with ip configuration \(class B\)
 
 ![](.gitbook/assets/windows2schema.png)
 
