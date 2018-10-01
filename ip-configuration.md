@@ -1,4 +1,10 @@
+---
+description: The configuration of the IP-adresses
+---
+
 # IP configuration
+
+The scheme with ip configuration
 
 ## DOMAIN controller connection
 
@@ -39,4 +45,6 @@ installatie
 
 
 
+
+![](.gitbook/assets/windows2schema.png)
 
