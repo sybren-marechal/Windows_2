@@ -1,0 +1,4 @@
+Get-ADUser user3
+
+import-csv ".\Documents\NEW_USER\groups.csv" | ForEach-Object {New-ADUser -Name $_.username -OtherAttributes @{'title'="director";'mail'="chewdavid@fabrikam.com"}
+} 
