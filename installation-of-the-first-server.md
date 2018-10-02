@@ -19,53 +19,18 @@ Never surf on the internet with your server!
 
 ![No more hardware problems.](.gitbook/assets/image.png)
 
-
-
 * rename the server to 'CMSV1'
 
+## Network routing and remote access  
+
+Add "Remote access" with roles en featers.  
+Mark "Routing" as a Role service.
+
+Go to "Routing and remote acces" in Tools.  
+configure youre server in NAT.  
+Select your WAN and LAN
 
 
-
-
-installatie voor netwerk routering
-
-manage
-
-ad roles en featers
-
-role based
-
-vink remote access
-
-
-
-fink routing an bij role services
-
-add al featers
-
-install
-
-
-
-Tools
-
-Routing and remote acces
-
-CMSV1
-
-rechter muisknop configrue
-
-
-
-
-
-kies je voor NAT 
-
-
-
-Select je WAN
-
-NExt dan LAN
 
 
 
