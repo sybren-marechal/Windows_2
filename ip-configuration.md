@@ -30,6 +30,8 @@ Subnet. 255.255.255.0
 def gateway 192.168.0.2   
 DNS 192.168.0.2 
 
+g0/2 to hyper-V via switch
+
 ## PC 1
 
 G0/1 LAN  

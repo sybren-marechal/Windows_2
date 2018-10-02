@@ -28,5 +28,16 @@ Aython
 
 
 
+* IP adressering
+* uitbreiden ip adres range
+
+
+
+
+
 PC lid maken van domein
+
+pc lid maken van domain
+
+wachtwoorden niet opslaan ipv6 uitzetten
 
