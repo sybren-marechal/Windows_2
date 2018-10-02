@@ -44,13 +44,7 @@ DNS 192.168.0.2
 192.168.0.10 - 192.168.0.29 COMPUTERS  
 192.168.0.30-192.168.0.39 PRINTERS
 
+The scheme with ip configuration
 
-
-
-
-
-
-The scheme with ip configuration \(class B\)
-
-![](.gitbook/assets/windows2schema.png)
+![](.gitbook/assets/windowsschema.PNG)
 
