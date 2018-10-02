@@ -18,8 +18,15 @@ Michiel
 Sybren
 
 * CSV file inlezen en users importeren in powershell
+* Automatiche updates afzetten DC1 en PC
 
 Aython
 
 * IP adressering
-* 
+
+
+
+
+
+PC lid maken van domein
+
