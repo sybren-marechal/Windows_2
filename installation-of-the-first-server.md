@@ -80,6 +80,8 @@ Source: [https://www.ntweekly.com/2016/09/08/disable-ipv6-on-microsoft-nano-serv
 
   Choose "\*" for all machines
 
+![](.gitbook/assets/firewall%20%281%29.PNG)
+
 Source: [https://www.lansweeper.com/knowledgebase/firewall/](https://www.lansweeper.com/knowledgebase/firewall/)
 
 #### Password caching is disabled for IE 11, Edge and chrome
