@@ -41,3 +41,7 @@ pc lid maken van domain
 
 wachtwoorden niet opslaan ipv6 uitzetten
 
+
+
+RDAC
+
