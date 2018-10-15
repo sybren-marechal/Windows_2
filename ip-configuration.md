@@ -48,5 +48,7 @@ DNS 192.168.0.2
 
 The scheme with ip configuration
 
-![](.gitbook/assets/windowsschema.PNG)
+![Schema with ip configuration](.gitbook/assets/schema16okt.png)
+
+
 
