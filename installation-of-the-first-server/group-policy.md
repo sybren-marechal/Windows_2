@@ -88,6 +88,25 @@ Then disable the caching of passwords.
 Source: [https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo](https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo)  
 Source: [https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/](https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/)
 
+#### Firewall settings
+
+Add the GPO settings to enable the firewall:
+
+* On Domain Profile: 
+  * Set Firewall state: on \(recommended\)
+  * Inbound connections: Block \(default\)
+  * Outbound connections: Allow \(default\)
+* On Private Profile:
+  * Set Firewall state: on \(recommended\)
+  * Inbound connections: Block \(default\)
+  * Outbound connections: Allow \(default\)
+* On Public Profile:
+  * Set Firewall state: on \(recommended\)
+  * Inbound connections: Block \(default\)
+  * Outbound connections: Allow \(default\)
+
+**IMAGE 4**
+
 ## Disable automatic updates
 
 Set this one to Disabled.
@@ -95,4 +114,36 @@ Set this one to Disabled.
 _If the status for this policy is set to Disabled, any updates that are available on Windows Update must be downloaded and installed manually._
 
 ![Local Group Policy Editor](../.gitbook/assets/950668.jpeg)
+
+ Next we add the setting that prevents local administrators from applying conflicting rules. Do this on the Domain Profile, Private Profile and Public Profile.
+
+**IMAGE 5**
+
+Enable firewall logging:
+
+**IMAGE 6**
+
+We want to configure a rule that allows ICMP response types:
+
+**IMAGE 7**
+
+**IMAGE 8**
+
+**IMAGE 9**
+
+**IMAGE 10**
+
+
+
+Open Windows PowerShell and type:
+
+```text
+gpupdate /force
+```
+
+ This reapplies all policy settings. By default, only policy settings that have changed are applied.
+
+**IMAGE 11**
+
+\*\*\*\*
 
