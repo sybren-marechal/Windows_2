@@ -14,6 +14,14 @@ The firewall domain profile was configured to block by default.
 
 ### The solution
 
+Add a predifined inbound rule: the DNS service.
+
+![](.gitbook/assets/troubleshoot1.png)
+
+As you can see on the image below, we added the DNS services next to the file and printer sharing.
+
+![](.gitbook/assets/troubleshoot2.png)
+
 
 
 to change the group policy to an other level. 

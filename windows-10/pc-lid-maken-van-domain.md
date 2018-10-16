@@ -6,5 +6,7 @@
 2. Enter account information which is used to authenticate  \(`C-Medics.be` \) on the **Domain** then click OK.
 3. Wait while your computer is authenticated on the **Domain**.
 
-Login with Admin User
+On the image below you can see that the pc is now a member of the domain `C-Medics.be`.
+
+![](../.gitbook/assets/pcmemberofdomain.png)
 
