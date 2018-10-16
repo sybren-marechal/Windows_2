@@ -1,38 +1,4 @@
----
-description: The different steps of installation of the first server
----
-
-# Installation of the first server
-
-* Allocate 100GB to the primary partition
-* Give the Administrator a secure password \(p. 29\)
-
-After the server was completely installed and booted, we decided to check the device manager to see if we had any hardware problems. As you can see, we had a couple of warnings. 
-
-![Hardware problems](.gitbook/assets/image%20%283%29.png)
-
-To solve these hardware issues, we had to download some drivers for our type of server \(R330 DRX54J2\)  
-We downloaded these drivers on one of our laptops and placed it on a USB.  
-Never surf on the internet with your server!
-
-![Driver pack for Windows OS](.gitbook/assets/image%20%282%29.png)
-
-![No more hardware problems.](.gitbook/assets/image.png)
-
-* rename the server to 'CMSV1'
-
-## Network routing and remote access  
-
-Add "Remote access" with roles en featers.  
-Mark "Routing" as a Role service.
-
-Go to "Routing and remote acces" in Tools.  
-configure youre server in NAT.  
-Select your WAN and LAN
-
-
-
-
+# Group policy
 
 ### Task 2/10/2018
 
@@ -45,7 +11,7 @@ Select your WAN and LAN
   * [http://www.expta.com/IPv6Configuration.zip](http://www.expta.com/IPv6Configuration.zip)
 * Now log into the server computer Open Group Policy Management Console \(GPMC\) to configure the IPv6 settings. The new policy will be located under **Computer Configuration &gt; Policies &gt; Administrative Templates &gt; Network &gt; IPv6 Configuration**, as shown below:
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
                         Then select disable all  
                         Source: [https://social.technet.microsoft.com/wiki/contents/articles/5927.how-to-disable-ipv6-through-group-policy.aspx](https://social.technet.microsoft.com/wiki/contents/articles/5927.how-to-disable-ipv6-through-group-policy.aspx)
@@ -74,13 +40,13 @@ Source: [https://www.ntweekly.com/2016/09/08/disable-ipv6-on-microsoft-nano-serv
 
 * Open Group Policy Management Console \(GPMC\) to configure firewall settings. The new policy will be located under **Computer Configuration &gt; Policies &gt; Administrative Templates &gt; Network &gt; Network Connections &gt; Windows Firewall**, as shown below:
 
-![](.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 * The setting that you need to enable is "**Windows Firewall: Allow inbound remote administration exception**"
 
   Choose "\*" for all machines
 
-![](.gitbook/assets/firewall%20%281%29.PNG)
+![](../.gitbook/assets/firewall%20%281%29.PNG)
 
 Source: [https://www.lansweeper.com/knowledgebase/firewall/](https://www.lansweeper.com/knowledgebase/firewall/)
 
@@ -108,7 +74,7 @@ Source: [https://theitbros.com/config-microsoft-edge-settings-using-gpo/](https:
 
  Disable **“Configure Password Manager”** disable **“Configure Autofill”** policies.
 
-![This will prevent users from saving passwords in Edge or enabling the setting to do so](.gitbook/assets/image%20%2814%29.png)
+![This will prevent users from saving passwords in Edge or enabling the setting to do so](../.gitbook/assets/image%20%2814%29.png)
 
 
 
@@ -122,7 +88,7 @@ Copy chromeos.admx en google.admx to
        C:\Windows\SYSVOL\sysvol\C-Medics.be\Policies\PolicyDefinitions  
 
 
-![](.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 Then disable the caching of passwords.  
 Source: [https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo](https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo)  

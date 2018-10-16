@@ -18,7 +18,8 @@ Michiel
 Sybren
 
 * CSV file inlezen en users importeren in powershell
-* Automatiche updates afzetten DC1 en PC
+
+
 
 Aython
 
@@ -35,9 +36,9 @@ Aython
 
 
 
-PC lid maken van domein
 
-pc lid maken van domain
+
+
 
 wachtwoorden niet opslaan ipv6 uitzetten
 
