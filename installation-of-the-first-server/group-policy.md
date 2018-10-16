@@ -2,7 +2,7 @@
 
 ## Task 2/10/2018
 
-#### Disable IPv6 through group policies
+## Disable IPv6 through group policies
 
 * By default there is no option to disable IPv6 through Group policies, we have to download ADM files and place ADMX and ADML files to below locations in your Windows server.
   * **IPv6Configuration.admx** - Copy this file to **%SYSTEMROOT%\PolicyDefinitions**
@@ -36,7 +36,7 @@ Source: [https://www.ntweekly.com/2016/09/08/disable-ipv6-on-microsoft-nano-serv
 
 
 
-#### Enable firewall on all devices through Group policies
+## Enable firewall on all devices through Group policies
 
 * Open Group Policy Management Console \(GPMC\) to configure firewall settings. The new policy will be located under **Computer Configuration &gt; Policies &gt; Administrative Templates &gt; Network &gt; Network Connections &gt; Windows Firewall**, as shown below:
 
@@ -50,7 +50,7 @@ Source: [https://www.ntweekly.com/2016/09/08/disable-ipv6-on-microsoft-nano-serv
 
 Source: [https://www.lansweeper.com/knowledgebase/firewall/](https://www.lansweeper.com/knowledgebase/firewall/)
 
-#### Password caching is disabled for IE 11, Edge and chrome
+## Disabled password caching for IE 11, Edge and chrome
 
 _Disable password caching for IE 11_
 
