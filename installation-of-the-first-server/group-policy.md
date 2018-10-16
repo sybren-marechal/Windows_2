@@ -88,7 +88,7 @@ Then disable the caching of passwords.
 Source: [https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo](https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo)  
 Source: [https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/](https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/)
 
-#### Firewall settings
+## Firewall settings
 
 Add the GPO settings to enable the firewall:
 
@@ -105,35 +105,25 @@ Add the GPO settings to enable the firewall:
   * Inbound connections: Block \(default\)
   * Outbound connections: Allow \(default\)
 
-**IMAGE 4**
+![](../.gitbook/assets/4.PNG)
 
-## Disable automatic updates
+Next we add the setting that prevents local administrators from applying conflicting rules. Do this on the Domain Profile, Private Profile and Public Profile.
 
-Set this one to Disabled.
-
-_If the status for this policy is set to Disabled, any updates that are available on Windows Update must be downloaded and installed manually._
-
-![Local Group Policy Editor](../.gitbook/assets/950668.jpeg)
-
- Next we add the setting that prevents local administrators from applying conflicting rules. Do this on the Domain Profile, Private Profile and Public Profile.
-
-**IMAGE 5**
+![](../.gitbook/assets/5.PNG)
 
 Enable firewall logging:
 
-**IMAGE 6**
+![](../.gitbook/assets/6.PNG)
 
 We want to configure a rule that allows ICMP response types:
 
-**IMAGE 7**
+![](../.gitbook/assets/7.PNG)
 
-**IMAGE 8**
+![](../.gitbook/assets/8.PNG)
 
-**IMAGE 9**
+![](../.gitbook/assets/9.PNG)
 
-**IMAGE 10**
-
-
+![](../.gitbook/assets/10.PNG)
 
 Open Windows PowerShell and type:
 
@@ -143,7 +133,17 @@ gpupdate /force
 
  This reapplies all policy settings. By default, only policy settings that have changed are applied.
 
-**IMAGE 11**
+![](../.gitbook/assets/11.PNG)
 
-\*\*\*\*
+When we try to ping from the desktop pc \(PC1\) to our Domain Controller \(192.168.0.1\), we can see that the ping was successful.
+
+**IMAGE SYBREN**
+
+## Disable automatic updates
+
+Set this one to Disabled.
+
+_If the status for this policy is set to Disabled, any updates that are available on Windows Update must be downloaded and installed manually._
+
+![Local Group Policy Editor](../.gitbook/assets/950668.jpeg)
 
