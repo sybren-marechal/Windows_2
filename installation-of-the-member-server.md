@@ -22,7 +22,7 @@
 
 ![Set the range of scope](.gitbook/assets/scopefoto.jpg)
 
-* setting the lease duration to 2 day
+* setting the lease duration to 1 day
 
 ![Lease duration](.gitbook/assets/leaseduur.jpg)
 
@@ -33,7 +33,13 @@
 #### WSUS-server on VCMSV3
 
 * adding the WSUS-role
-* ...
+* Configure the WSUS settings via tools -&gt; WSUS 
+  * Before you begin -&gt; next
+  * Microsoft Update Improvement Program -&gt; next
+  * Choose Upstream Server -&gt; Syncronize from Microsoft Update
+  * Specify Proxy Server -&gt; we don't use a proxy server
+  * click start Connecting
+  * 
 
 #### FILE-server on VCMSV4
 
