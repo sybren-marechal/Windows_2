@@ -1,7 +1,5 @@
 # Group policy
 
-## Task 2/10/2018
-
 ## Disable IPv6 through group policies
 
 * By default there is no option to disable IPv6 through Group policies, we have to download ADM files and place ADMX and ADML files to below locations in your Windows server.
@@ -52,14 +50,12 @@ Source: [https://www.lansweeper.com/knowledgebase/firewall/](https://www.lanswee
 
 ## Disabled password caching for IE 11, Edge and chrome
 
-_Disable password caching for IE 11_
+### _Disable password caching for IE 11_
 
 Worked perfectly following this tutorial:  
 [https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/](https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/)
 
-
-
-_Disable password caching for Edge_
+### _Disable password caching for Edge_
 
 Download the latest version of registry-based **Administrative Templates \(.admx\) for Windows 10 and Windows Server 2016**_._
 
@@ -76,9 +72,7 @@ Source: [https://theitbros.com/config-microsoft-edge-settings-using-gpo/](https:
 
 ![This will prevent users from saving passwords in Edge or enabling the setting to do so](../.gitbook/assets/image%20%2814%29.png)
 
-
-
-_Disable password caching for chrome_
+### _Disable password caching for chrome_
 
 First download thes policy templates: [http://dl.google.com/dl/edgedl/chrome/policy/policy\_templates.zip](http://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip)
 
@@ -94,5 +88,11 @@ Then disable the caching of passwords.
 Source: [https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo](https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo)  
 Source: [https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/](https://thycotic.com/company/blog/2013/09/09/securing-web-browsers-through-group-policy/)
 
+## Disable automatic updates
 
+Set this one to Disabled.
+
+_If the status for this policy is set to Disabled, any updates that are available on Windows Update must be downloaded and installed manually._
+
+![Local Group Policy Editor](../.gitbook/assets/950668.jpeg)
 
