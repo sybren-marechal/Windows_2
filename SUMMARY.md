@@ -8,8 +8,8 @@
 * [member server](installation-of-the-member-server.md)
 * [Domain PC](windows-10/README.md)
   * [Pc Lid maken van domain](windows-10/pc-lid-maken-van-domain.md)
-  * [Updates Deactivate](windows-10/updates-deactivate.md)
 * [IP configuration](ip-configuration.md)
+* [Trouble shooting](trouble-shooting.md)
 * [To Do](to-do.md)
 * [PASS](pass.md)
 

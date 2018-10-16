@@ -1,10 +1,2 @@
 # Windows server
 
-
-
-## instal
-
-
-
-
-

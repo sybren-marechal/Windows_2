@@ -34,7 +34,10 @@ g0/2 to hyper-V via switch
 
 ## PC 1
 
-G0/1 LAN  
+G0/1 LAN
+
+DHCP  
+OR  
 ip address: 192.168.0.10   
 Subnet. 255.255.255.0  
 def gateway 192.168.0.2   
