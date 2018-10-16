@@ -39,6 +39,12 @@
   * Choose Upstream Server -&gt; Syncronize from Microsoft Update
   * Specify Proxy Server -&gt; we don't use a proxy server
   * click start Connecting
+  * Choose Languages -&gt; English
+  * Choose Products -&gt; Windows Defender
+  * Choose Classifications -&gt; All Classifications
+  * Configure Sync Schedule -&gt; Synchronize manually
+  * Finished -&gt; don't select begin initial synchronization and click next
+  * then click finish and the Update Services will open
   * 
 
 #### FILE-server on VCMSV4
