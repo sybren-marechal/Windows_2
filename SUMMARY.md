@@ -11,4 +11,5 @@
   * [Updates Deactivate](windows-10/updates-deactivate.md)
 * [IP configuration](ip-configuration.md)
 * [To Do](to-do.md)
+* [PASS](pass.md)
 
