@@ -5,6 +5,7 @@
 * [Domain controller](installation-of-the-first-server/README.md)
   * [Active Directory](installation-of-the-first-server/active-directory.md)
   * [Group policy](installation-of-the-first-server/group-policy.md)
+  * [Users](installation-of-the-first-server/users.md)
 * [member server](installation-of-the-member-server.md)
 * [Domain PC](windows-10/README.md)
   * [Making the pc member of the domain](windows-10/pc-lid-maken-van-domain.md)
