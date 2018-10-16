@@ -2,7 +2,7 @@
 description: The different steps of installation of the first server
 ---
 
-# Installation of the first server
+# Domain controller
 
 * Allocate 100GB to the primary partition
 * Give the Administrator a secure password \(p. 29\)

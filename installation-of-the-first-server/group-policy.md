@@ -1,6 +1,6 @@
 # Group policy
 
-### Task 2/10/2018
+## Task 2/10/2018
 
 #### Disable IPv6 through group policies
 

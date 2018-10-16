@@ -1,4 +1,4 @@
-# Installation of the member server
+# member server
 
 ## Member Server
 

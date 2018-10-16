@@ -1,4 +1,4 @@
-# Windows 10
+# Domain PC
 
 ## Windows 10 installation
 
