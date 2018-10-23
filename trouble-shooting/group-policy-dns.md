@@ -28,5 +28,15 @@ to change the group policy to an other level.
 
 Other rules for clients and servers. 
 
+### scope
+
+change the scope of the policy's.   
+Create of a group policy for
+
+* default domain policy
+* domain controller
+* clients
+* servers
+
 
 

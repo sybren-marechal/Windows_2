@@ -9,7 +9,7 @@
   * [http://www.expta.com/IPv6Configuration.zip](http://www.expta.com/IPv6Configuration.zip)
 * Now log into the server computer Open Group Policy Management Console \(GPMC\) to configure the IPv6 settings. The new policy will be located under **Computer Configuration &gt; Policies &gt; Administrative Templates &gt; Network &gt; IPv6 Configuration**, as shown below:
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
                         Then select disable all  
                         Source: [https://social.technet.microsoft.com/wiki/contents/articles/5927.how-to-disable-ipv6-through-group-policy.aspx](https://social.technet.microsoft.com/wiki/contents/articles/5927.how-to-disable-ipv6-through-group-policy.aspx)
@@ -38,13 +38,13 @@ Source: [https://www.ntweekly.com/2016/09/08/disable-ipv6-on-microsoft-nano-serv
 
 * Open Group Policy Management Console \(GPMC\) to configure firewall settings. The new policy will be located under **Computer Configuration &gt; Policies &gt; Administrative Templates &gt; Network &gt; Network Connections &gt; Windows Firewall**, as shown below:
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 * The setting that you need to enable is "**Windows Firewall: Allow inbound remote administration exception**"
 
   Choose "\*" for all machines
 
-![](../.gitbook/assets/firewall%20%281%29.PNG)
+![](../../.gitbook/assets/firewall%20%281%29.PNG)
 
 Source: [https://www.lansweeper.com/knowledgebase/firewall/](https://www.lansweeper.com/knowledgebase/firewall/)
 
@@ -70,7 +70,7 @@ Source: [https://theitbros.com/config-microsoft-edge-settings-using-gpo/](https:
 
  Disable **“Configure Password Manager”** disable **“Configure Autofill”** policies.
 
-![This will prevent users from saving passwords in Edge or enabling the setting to do so](../.gitbook/assets/image%20%2814%29.png)
+![This will prevent users from saving passwords in Edge or enabling the setting to do so](../../.gitbook/assets/image%20%2814%29.png)
 
 ### _Disable password caching for chrome_
 
@@ -82,7 +82,7 @@ Copy chromeos.admx en google.admx to
        C:\Windows\SYSVOL\sysvol\C-Medics.be\Policies\PolicyDefinitions  
 
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 Then disable the caching of passwords.  
 Source: [https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo](https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo)  
@@ -96,7 +96,7 @@ gpupdate /force
 
  This reapplies all policy settings. By default, only policy settings that have changed are applied.
 
-![](../.gitbook/assets/11.PNG)
+![](../../.gitbook/assets/11.PNG)
 
 When we try to ping from the desktop pc \(PC1\) to our Domain Controller \(192.168.0.1\), we can see that the ping was successful.
 
@@ -108,5 +108,5 @@ Set this one to Disabled.
 
 _If the status for this policy is set to Disabled, any updates that are available on Windows Update must be downloaded and installed manually._
 
-![Local Group Policy Editor](../.gitbook/assets/950668.jpeg)
+![Local Group Policy Editor](../../.gitbook/assets/950668.jpeg)
 
