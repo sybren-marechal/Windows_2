@@ -30,6 +30,8 @@
 
 ![Scope overview](.gitbook/assets/scopeoverview.jpg)
 
+#### **red arrow on dhcp**
+
 #### WSUS-server on VCMSV3
 
 * adding the WSUS-role
@@ -50,6 +52,16 @@
 #### FILE-server on VCMSV4
 
 * ...
+
+**RODC on VCMSV5**
+
+* we install windows server 2016 on this virtual machine and choose for the windows server 2016 datacenter
+* When windows server 2016 datacenter is installed you need to configure a passwor for the administrator then you come in the command prompt
+* with the command sconfig you come into the sconfig menu.
+
+
+
+
 
 
 
