@@ -39,3 +39,23 @@ We want to configure a rule that allows ICMP response types:
 
 
 
+
+
+## Only allow verified mouses and keyboards \(Rubber Ducky exercise\)
+
+At first, we determined the Hardware ID's from the mouses and keyboards.  
+I compared the Hardware ID from 1 Dell mouse with a second one to see which part is the same.  
+The same was done for the Hardware ID's of 2 Dell keyboards.
+
+You can see the comparison on the image below:
+
+![](../../.gitbook/assets/image%20%2811%29.png)
+
+Some clarification of the abbreviations:
+
+* HID = Hardware ID
+* VID = Vendor ID
+* PID = Product ID
+
+
+

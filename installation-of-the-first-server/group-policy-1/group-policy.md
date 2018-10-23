@@ -70,7 +70,7 @@ Source: [https://theitbros.com/config-microsoft-edge-settings-using-gpo/](https:
 
  Disable **“Configure Password Manager”** disable **“Configure Autofill”** policies.
 
-![This will prevent users from saving passwords in Edge or enabling the setting to do so](../../.gitbook/assets/image%20%2814%29.png)
+![This will prevent users from saving passwords in Edge or enabling the setting to do so](../../.gitbook/assets/image%20%2815%29.png)
 
 ### _Disable password caching for chrome_
 

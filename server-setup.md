@@ -5,13 +5,13 @@
 * While booting press '_CTRL + R'_ .
 * Press F2 and select: _Create new VD_
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 * Chose RAID-1 and select the first 2 disks
 
  
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 * Select Virtual Disks and press F2 and go to initialization \(fast init\)
 
@@ -20,7 +20,7 @@
 * Select Disk Group and press F2 again to manage the dedicated HotSpares
   * Select the correct disk
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 **Windows Server 2016 installation**
 
@@ -37,7 +37,7 @@
 
 * After flashing the image files using Rufus, we tried to boot again from these USB's and encountered the same error message again...
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 This error message was solved using the following steps:
 
