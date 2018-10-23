@@ -59,3 +59,6 @@ Some clarification of the abbreviations:
 
 
 
+Added USB\\VID\_0461  
+             USB\\VID\_413
+
