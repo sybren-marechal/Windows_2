@@ -30,9 +30,14 @@ Subnet. 255.255.255.0
 def gateway 192.168.0.2   
 DNS 192.168.0.2 
 
+g0/2 to hyper-V via switch
+
 ## PC 1
 
-G0/1 LAN  
+G0/1 LAN
+
+DHCP  
+OR  
 ip address: 192.168.0.10   
 Subnet. 255.255.255.0  
 def gateway 192.168.0.2   
@@ -40,11 +45,13 @@ DNS 192.168.0.2
 
 ## VERDELING
 
-192.168.0.1- 192.168.0.9 CONTROLLERS  
-192.168.0.10 - 192.168.0.29 COMPUTERS  
-192.168.0.30-192.168.0.39 PRINTERS
+192.168.0.1- 192.168.0.49 CONTROLLERS  
+192.168.0.50 - 192.168.0.179 COMPUTERS  
+192.168.0.180 - 192.168.0.254 PRINTERS
 
 The scheme with ip configuration
 
-![](.gitbook/assets/windowsschema.PNG)
+![Schema with ip configuration](.gitbook/assets/schema16okt.png)
+
+
 

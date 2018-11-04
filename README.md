@@ -1,10 +1,2 @@
-# Perc installation
-
-
-
-## instal
-
-
-
-
+# Windows server
 

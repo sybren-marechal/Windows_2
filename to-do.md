@@ -6,27 +6,16 @@ description: To do list
 
 **To do:**
 
-Michiel
-
-* installatie DNS
-* installatie domain controller
 
 
+* RDAC
+* Niet toelaten van andre USB apparaten op clients. Selecteren op DELL
+* 
 
-* p. 49-50: IPv4 adressen toekennen aan InternetConnectie en LANConnectie
+
+
 
 Sybren
 
 * CSV file inlezen en users importeren in powershell
-* Automatiche updates afzetten DC1 en PC
-
-Aython
-
-* IP adressering
-
-
-
-
-
-PC lid maken van domein
 
