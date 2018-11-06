@@ -11,7 +11,6 @@ Aython
 * virtuele server RODC
 * WSUS
 * File Server
-* Fixen DHCP
 
 
 
