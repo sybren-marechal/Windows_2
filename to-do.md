@@ -6,22 +6,14 @@ description: To do list
 
 **To do:**
 
-Aython
-
-* virtuele server RODC
-* WSUS
-* File Server
-
-
-
-* RDAC
-* Niet toelaten van andre USB apparaten op clients. Selecteren op DELL
-* 
+* [ ] Virtuele Server RODC
+* [ ] WSUS
+* [ ] FIle server
+* [ ] RDAC
+* [ ] niet toelaten van andere USB Apparaten op cliets. Selecteren op Dell
+* [ ] Powershell
+  * [x] CSV File Inlezen en Users aanmaken
+  * [ ] CSV File Inlezen en Users verplaatsen van OU
 
 
-
-
-Sybren
-
-* CSV file inlezen en users importeren in powershell
 
