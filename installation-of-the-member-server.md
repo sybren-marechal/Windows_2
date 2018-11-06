@@ -87,3 +87,5 @@ Install-ADDSDomainController -InstallDns -DomainName 'C-Medics.be' -ReadOnlyRepl
 
 foto
 
+
+
