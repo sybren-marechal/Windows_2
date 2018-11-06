@@ -10,8 +10,8 @@ description: To do list
 * [ ] WSUS
 * [ ] FIle server
 * [ ] RDAC
-* [ ] niet toelaten van andere USB Apparaten op cliets. Selecteren op Dell
-* [ ] PC's aanpassen naar Ram 4GB
+* [x] niet toelaten van andere USB Apparaten op cliets. Selecteren op Dell
+* [x] PC's aanpassen naar Ram 4GB
 * [ ] Aanmaken OU
 * [ ] Powershell
   * [x] CSV File Inlezen en Users aanmaken
