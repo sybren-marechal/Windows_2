@@ -19,6 +19,7 @@
   * [Time](trouble-shooting/time.md)
   * [DNS](trouble-shooting/dns.md)
   * [group policy DNS](trouble-shooting/group-policy-dns.md)
+  * [DHCP](trouble-shooting/dhcp.md)
 * [To Do](to-do.md)
 * [PASS](pass.md)
 
