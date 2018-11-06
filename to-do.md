@@ -6,7 +6,7 @@ description: To do list
 
 **To do:**
 
-* [ ] Virtuele Server RODC
+* [x] Virtuele Server RODC
 * [ ] WSUS
 * [ ] FIle server
 * [ ] RDAC
