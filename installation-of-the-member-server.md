@@ -28,7 +28,7 @@
 
 * overview of the scope
 
-![Scope overview](.gitbook/assets/scopeoverview.jpg)
+nieuwe foto toevoegen!!!!!!!!!!!!!!!!!!!!
 
 #### **red arrow on dhcp**
 
