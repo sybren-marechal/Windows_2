@@ -6,6 +6,13 @@ description: To do list
 
 **To do:**
 
+Aython
+
+* virtuele server RODC
+* WSUS
+* File Server
+* Fixen DHCP
+
 
 
 * RDAC
