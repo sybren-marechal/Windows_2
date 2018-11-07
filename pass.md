@@ -27,7 +27,7 @@ Passwd: WSUSServer-1
 username: administrator  
 Passwd: FILEServer-1
 
-## PC\_1
+## ClientComputer1
 
 username: PCGebruikers  
 Passwd: Windows10Gebruikers

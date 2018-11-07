@@ -5,5 +5,9 @@ After adding a new forest, we had to choose a root domain name, we chose 'C-Medi
 
 NetBIOS domain name: C-MEDICS
 
+Sitename CMBrugge
 
+{% hint style="info" %}
+Dit is te vinden via `nltest /dsgetsite`
+{% endhint %}
 

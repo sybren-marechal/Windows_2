@@ -57,8 +57,23 @@ Some clarification of the abbreviations:
 * VID = Vendor ID
 * PID = Product ID
 
+On the image below you can see the GPO's that I enabed so only verified keyboards and mouses are allowed.
 
+![](../../.gitbook/assets/gpo%20%281%29.PNG)
 
-Added USB\\VID\_0461  
-             USB\\VID\_413
+Now follows a list with all the enabled GPO's:
+
+![Display a custom message when installation is prevented by a policy setting](../../.gitbook/assets/gpo.PNG)
+
+![Allow installation of devices that match any of these device IDs](../../.gitbook/assets/gpo2.PNG)
+
+![List of allowed devices \(Dell keyboard and Dell mouse\)](../../.gitbook/assets/gpo2.1.PNG)
+
+![Prevent installation of removable devices](../../.gitbook/assets/gpo3.PNG)
+
+![Prevent installation of devices not described by other policy settings](../../.gitbook/assets/gpo4.PNG)
+
+Here you can see the Group Policy Results wizard on CLIENTCOMPUTER1:
+
+![Group Policy Results](../../.gitbook/assets/grouppolicyresults.PNG)
 

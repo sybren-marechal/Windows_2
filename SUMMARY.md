@@ -11,7 +11,8 @@
     * [domain controller](installation-of-the-first-server/group-policy-1/domain-controller.md)
     * [clients](installation-of-the-first-server/group-policy-1/clients.md)
     * [servers](installation-of-the-first-server/group-policy-1/servers.md)
-* [member server](installation-of-the-member-server.md)
+* [member server](installation-of-the-member-server/README.md)
+  * [HYPER V](installation-of-the-member-server/hyper-v.md)
 * [Domain PC](windows-10/README.md)
   * [Making the pc member of the domain](windows-10/pc-lid-maken-van-domain.md)
 * [IP configuration](ip-configuration.md)
@@ -19,6 +20,7 @@
   * [Time](trouble-shooting/time.md)
   * [DNS](trouble-shooting/dns.md)
   * [group policy DNS](trouble-shooting/group-policy-dns.md)
+  * [DHCP](trouble-shooting/dhcp.md)
 * [To Do](to-do.md)
 * [PASS](pass.md)
 

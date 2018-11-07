@@ -1,5 +1,7 @@
 # Making the pc member of the domain
 
+## ClientComputer1
+
 **On the Windows 10** PC go to Settings &gt; System &gt; About then click Join a **domain**.
 
 1. Enter the **Domain** name and click Next. ...

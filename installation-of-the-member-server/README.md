@@ -13,22 +13,22 @@
 
 * making 5 virtual servers on the member server
 
-![](.gitbook/assets/virtueleservers.png)
+![](../.gitbook/assets/virtueleservers.png)
 
 #### DHCP-server on VCMSV2
 
 * adding the role DHCP
 * making a new scope
 
-![Set the range of scope](.gitbook/assets/scopefoto.jpg)
+![Set the range of scope](../.gitbook/assets/scopefoto.jpg)
 
 * setting the lease duration to 1 day
 
-![Lease duration](.gitbook/assets/leaseduur.jpg)
+![Lease duration](../.gitbook/assets/leaseduur.jpg)
 
 * overview of the scope
 
-![Scope overview](.gitbook/assets/scopeoverview.jpg)
+nieuwe foto toevoegen!!!!!!!!!!!!!!!!!!!!
 
 #### **red arrow on dhcp**
 
@@ -56,12 +56,36 @@
 **RODC on VCMSV5**
 
 * we install windows server 2016 on this virtual machine and choose for the windows server 2016 datacenter
-* When windows server 2016 datacenter is installed you need to configure a passwor for the administrator then you come in the command prompt
+* When windows server 2016 datacenter is installed you need to configure a password for the administrator then you come in the command prompt
 * with the command sconfig you come into the sconfig menu.
 
+Installing the features in powershell window
 
+```text
+Add-WindowsFeature AD-Domain-Services, DNS
+```
 
+Controlling the windows features
 
+```text
+Get-WindowsFeature
+```
+
+Testing installation 
+
+```text
+Test-ADDSDomainControllerInstallation
+```
+
+foto
+
+Creating the RODC \(Read Only Domain Controller\)
+
+```text
+Install-ADDSDomainController -InstallDns -DomainName 'C-Medics.be' -ReadOnlyReplica -SiteName 'C-Medics' -WhatIf
+```
+
+foto
 
 
 
