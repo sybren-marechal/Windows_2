@@ -1,5 +1,5 @@
 #https://social.technet.microsoft.com/wiki/contents/articles/24541.powershell-bulk-create-ad-users-from-csv-file.aspx
-https://4sysops.com/archives/powershell-classes-part-3-methods/
+#https://4sysops.com/archives/powershell-classes-part-3-methods/
 
 
 $csvfile = ".\Documents\NEW_USER\groups.csv"
@@ -81,6 +81,7 @@ $users | ForEach-Object {
         }
         else {
             Remove-ADGroupMember -Identity $group -Members $sam
+            write-output "remove $sam from the group= $group  "  
         }
     }
 
