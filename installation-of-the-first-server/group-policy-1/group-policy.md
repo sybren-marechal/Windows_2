@@ -70,7 +70,7 @@ Source: [https://theitbros.com/config-microsoft-edge-settings-using-gpo/](https:
 
  Disable **“Configure Password Manager”** disable **“Configure Autofill”** policies.
 
-![This will prevent users from saving passwords in Edge or enabling the setting to do so](../../.gitbook/assets/image%20%2815%29.png)
+![This will prevent users from saving passwords in Edge or enabling the setting to do so](../../.gitbook/assets/image%20%2816%29.png)
 
 ### _Disable password caching for chrome_
 
@@ -82,7 +82,7 @@ Copy chromeos.admx en google.admx to
        C:\Windows\SYSVOL\sysvol\C-Medics.be\Policies\PolicyDefinitions  
 
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 Then disable the caching of passwords.  
 Source: [https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo](https://community.spiceworks.com/topic/2100481-disable-chrome-passwords-through-gpo)  

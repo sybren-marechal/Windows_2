@@ -49,7 +49,7 @@ The same was done for the Hardware ID's of 2 Dell keyboards.
 
 You can see the comparison on the image below:
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 Some clarification of the abbreviations:
 
