@@ -6,7 +6,6 @@ $csvfile = ".\Documents\NEW_USER\groups.csv"
 $logfile = ".\Documents\NEW_USER\logfile.txt"
 $date = Get-Date
 
-
 #----------------------------------------------------------
 #STATIC VARIABLES
 #----------------------------------------------------------
@@ -40,7 +39,6 @@ ForEach ($item in $users ) {
     }
 }
 
-
 $users | ForEach-Object {
 
     $GivenName = $_.Voornaam
@@ -59,15 +57,9 @@ $users | ForEach-Object {
     # add member to groop but do not delete it from the pre group
     add-ADGroupMember -Identity $group -Members $sam
     write-output "add $sam to the group $group" 
-    #test
-    # Get-ADGroupMember "group1" | ForEach-Object {
-    #     add-ADGroupMember -Identity $group -Members $sam
-    #     Remove-ADGroupMember -Identity "group1" -Members $sam
-    #   }
-
+ 
     Move-ADobject (get-aduser $sam).DistinguishedName -TargetPath "OU=$OU,OU=$ou_afdeling,DC=$domain_controller,DC=be";
     write-output "move $sam to the OU= $ou and the afdeling= $ou_afdeling " 
-
 
     $huidigeGroupen = @()
     foreach ($group in Get-ADPrincipalGroupMembership $sam | select name) {
