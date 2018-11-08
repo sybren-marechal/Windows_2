@@ -11,7 +11,7 @@
 
  
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 * Select Virtual Disks and press F2 and go to initialization \(fast init\)
 
@@ -20,7 +20,7 @@
 * Select Disk Group and press F2 again to manage the dedicated HotSpares
   * Select the correct disk
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 **Windows Server 2016 installation**
 
