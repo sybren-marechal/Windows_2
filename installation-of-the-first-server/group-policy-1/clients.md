@@ -17,11 +17,11 @@ Add the GPO settings to enable the firewall:
   * Inbound connections: Block \(default\)
   * Outbound connections: Allow \(default\)
 
-![](../../.gitbook/assets/4.PNG)
+![](../../.gitbook/assets/4%20%281%29.PNG)
 
 Next we add the setting that prevents local administrators from applying conflicting rules. Do this on the Domain Profile, Private Profile and Public Profile.
 
-![](../../.gitbook/assets/5.PNG)
+![](../../.gitbook/assets/5%20%281%29.PNG)
 
 Enable firewall logging:
 
