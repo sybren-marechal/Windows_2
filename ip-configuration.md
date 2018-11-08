@@ -47,6 +47,8 @@ DNS 192.168.0.2
 
 192.168.0.1- 192.168.0.49 CONTROLLERS
 
+####     USED IP ADDRESSES
+
 * 192.168.0.1 Domain controller\(**Server1\)**
 * 192.168.0.2 Member server **\(Server 2\)**
 * 192.168.0.3 VCMSV1 **\(Virtuele Server 1\)**
