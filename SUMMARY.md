@@ -23,4 +23,5 @@
   * [DHCP](trouble-shooting/dhcp.md)
 * [To Do](to-do.md)
 * [PASS](pass.md)
+* [iDRAC](idrac.md)
 
