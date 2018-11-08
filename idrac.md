@@ -23,7 +23,7 @@ We logged in with the default user 'root' and the default password 'calvin'.
 
 Next, we get the following screen.
 
-
+![](.gitbook/assets/screenshot-2018-11-08-at-09.45.39.png)
 
 As you can see on the image above, we are now able to turn the server on and off.
 
