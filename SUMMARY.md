@@ -8,7 +8,7 @@
   * [Users](installation-of-the-first-server/users.md)
   * [group policy](installation-of-the-first-server/group-policy-1/README.md)
     * [default domain policy](installation-of-the-first-server/group-policy-1/group-policy.md)
-    * [domain controller](installation-of-the-first-server/group-policy-1/domain-controller.md)
+    * [Default Domain Controllers Policy](installation-of-the-first-server/group-policy-1/domain-controller.md)
     * [clients](installation-of-the-first-server/group-policy-1/clients.md)
     * [servers](installation-of-the-first-server/group-policy-1/servers.md)
 * [member server](installation-of-the-member-server/README.md)
