@@ -2,7 +2,7 @@
 #https://4sysops.com/archives/powershell-classes-part-3-methods/
 
 
-$csvfile = ".\Documents\NEW_USER\groups.csv"
+$csvfile = "C:\Data\users.csv"
 $logfile = ".\Documents\NEW_USER\logfile.txt"
 $date = Get-Date
 
@@ -11,37 +11,41 @@ $date = Get-Date
 #----------------------------------------------------------
 
 $users = import-csv $csvfile
-$domain_controller = "PoliformaSM"
-$ou_afdeling = "PFafdeling"
+$domain_controller = "C-Medics"
+$ou_afdeling = "C-MedicsAfdelingen"
 
 ##########################################
 
 ForEach ($item in $users ) {
     if ($item.Manager.Equals("X")) {
-        $ou = "Administratie" #manager
-        $group = "Administratie" #manager
+        $ou = "Manager" #manager
+        $group = "Manager" #
+         write-output "group =  $group" 
     }
     if ($item.IT.Equals("X")) {
-        $ou = "Automatisering" #it
-        $group = "Automatisering"
+        $ou = "IT" #it
+        $group = "IT"
+        write-output "group =  $group" 
+
     }
-    if ($item.Boekhouding.Equals("X")) {
-        $ou = "Directie" #boekhouding 
-        $group = "Directie"
+    if ($item.boekhouding.Equals("X")) {
+        $ou = "Boekhouding" #boekhouding 
+        $group = "Boekhouding"
+        write-output "group =  $group" 
     }
-    if ($item.Logistiek.Equals("X")) {
-        $ou = "productie" #logistiek
-        $group = "productie"
+    if ($item.logistiek.Equals("X")) {
+        $ou = "Logistiek" #logistiek
+        $group = "Logistiek"
+        write-output "group =  $group" 
     }
     if ($item.ImportExport.Equals("X")) {
-        $ou = "Staf" # importExport
-        $group = "Staf"
+        $ou = "ImportExport" # importExport
+        $group = "ImportExport"
+        write-output "group =  $group" 
     }
-
 }
 
 $users | ForEach-Object {
-
 
     $GivenName = $_.Voornaam
     $Surname = $_.naam
