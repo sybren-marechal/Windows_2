@@ -13,14 +13,17 @@ $date = Get-Date
 $users = import-csv $csvfile
 $domain_controller = "C-Medics"
 $ou_afdeling = "C-MedicsAfdelingen"
-
+$manager = $false
 ##########################################
 
 ForEach ($gebruiker in $users ) {
     if ($gebruiker.Manager.Equals("X")) {
         $ou = "Manager" #manager
         $group = "Manager" #
-         write-output "group =  $group" 
+        $manager = $true
+        write-output "group =  $group" 
+        write-output "manager? =  $manager" 
+
     }
     if ($gebruiker.IT.Equals("X")) {
         $ou = "IT" #it
@@ -48,10 +51,10 @@ ForEach ($gebruiker in $users ) {
     # $gebruiker.Voornaam= $_.Voornaam
     # $gebruiker.Naam = $_.naam
     # $gebruiker.Account = $_.account
-    $sam = $gebruiker.Voornaam+ "." + $gebruiker.Naam
+    $sam = $gebruiker.Voornaam + "." + $gebruiker.Naam
 
     try {
-        New-ADUser -Name $sam  -OtherAttributes @{'mail' = $gebruiker.Voornaam+ "." + $gebruiker.Naam + "@fabrikam.com"; UserPrincipalName = $gebruiker.Account}
+        New-ADUser -Name $sam  -OtherAttributes @{'mail' = $gebruiker.Voornaam + "." + $gebruiker.Naam + "@fabrikam.com"; UserPrincipalName = $gebruiker.Account}
         write-output "created user $sam" 
     }
     catch {
@@ -59,9 +62,18 @@ ForEach ($gebruiker in $users ) {
     }
 
     # add member to groop but do not delete it from the pre group
+
+if($manager= $true){
+    add-ADGroupMember -Identity "Manager" -Members $sam
+    write-output "add $sam to the group Manager" 
+}
+else {
     add-ADGroupMember -Identity $group -Members $sam
     write-output "add $sam to the group $group" 
- 
+}
+
+
+
     Move-ADobject (get-aduser $sam).DistinguishedName -TargetPath "OU=$OU,OU=$ou_afdeling,DC=$domain_controller,DC=be";
     write-output "move $sam to the OU= $ou and the afdeling= $ou_afdeling " 
 
@@ -71,7 +83,7 @@ ForEach ($gebruiker in $users ) {
             $huidigeGroupen += $group.name
         }
     }
-    
+                
     foreach ($group in $huidigeGroupen) {
         if ($group -eq $ou) {
         }
@@ -80,6 +92,12 @@ ForEach ($gebruiker in $users ) {
             write-output "remove $sam from the group= $group  "  
         }
     }
+
+
+    
+
+
+   
     write-output "" 
 
 }

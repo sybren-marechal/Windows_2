@@ -16,54 +16,57 @@ $ou_afdeling = "C-MedicsAfdelingen"
 
 ##########################################
 
-ForEach ($item in $users ) {
-    if ($item.Manager.Equals("X")) {
-        $ou = "Manager" #manager
-        $group = "Manager" #
-         write-output "group =  $group" 
-    }
-    if ($item.IT.Equals("X")) {
-        $ou = "IT" #it
-        $group = "IT"
+ForEach ($gebruiker in $users ) {
+    $manager = $false
+    $ou = "null"
+    $group = "null"
+    if ($gebruiker.Manager.Equals("X")) {
+        $ou = "manager" #manager
+        $group = "manager" #
+        $manager = $true
         write-output "group =  $group" 
-
+        write-output "manager? =  $manager" 
     }
-    if ($item.boekhouding.Equals("X")) {
-        $ou = "Boekhouding" #boekhouding 
-        $group = "Boekhouding"
-        write-output "group =  $group" 
-    }
-    if ($item.logistiek.Equals("X")) {
-        $ou = "Logistiek" #logistiek
-        $group = "Logistiek"
+    if ($gebruiker.IT.Equals("X")) {
+        $ou = "it" #it
+        $group = "it"
         write-output "group =  $group" 
     }
-    if ($item.ImportExport.Equals("X")) {
-        $ou = "ImportExport" # importExport
-        $group = "ImportExport"
+    if ($gebruiker.boekhouding.Equals("X")) {
+        $ou = "boekhouding" #boekhouding 
+        $group = "boekhouding"
         write-output "group =  $group" 
     }
-}
-
-$users | ForEach-Object {
-
-    $GivenName = $_.Voornaam
-    $Surname = $_.naam
-    $accountName = $_.account
-    $sam = $GivenName + "." + $Surname
+    if ($gebruiker.logistiek.Equals("X")) {
+        $ou = "logistiek" #logistiek
+        $group = "logistiek"
+        write-output "group =  $group" 
+    }
+    if ($gebruiker.ImportExport.Equals("X")) {
+        $ou = "importExport" # importExport
+        $group = "importExport"
+        write-output "group =  $group" 
+    }
+    $sam = $gebruiker.Voornaam + "." + $gebruiker.Naam
 
     try {
-        New-ADUser -Name $sam  -OtherAttributes @{'mail' = $GivenName + "." + $Surname + "@fabrikam.com"; UserPrincipalName = $accountName}
+        New-ADUser -Name $sam  -OtherAttributes @{'mail' = $gebruiker.Voornaam + "." + $gebruiker.Naam + "@fabrikam.com"; UserPrincipalName = $gebruiker.Account}
         write-output "created user $sam" 
     }
     catch {
         write-output "user $sam already exist" 
     }
-
     # add member to groop but do not delete it from the pre group
-    add-ADGroupMember -Identity $group -Members $sam
-    write-output "add $sam to the group $group" 
- 
+    if ($manager.Equals($true)) {
+        add-ADGroupMember -Identity "manager" -Members $sam
+        write-output "add $sam to the group Manager" 
+
+    }
+    else {
+        add-ADGroupMember -Identity $group -Members $sam
+        write-output "add $sam to the group $group" 
+    }
+
     Move-ADobject (get-aduser $sam).DistinguishedName -TargetPath "OU=$OU,OU=$ou_afdeling,DC=$domain_controller,DC=be";
     write-output "move $sam to the OU= $ou and the afdeling= $ou_afdeling " 
 
@@ -73,15 +76,19 @@ $users | ForEach-Object {
             $huidigeGroupen += $group.name
         }
     }
-    
+                
     foreach ($group in $huidigeGroupen) {
-        if ($group -eq $ou) {
-        }
-        else {
-            Remove-ADGroupMember -Identity $group -Members $sam
-            write-output "remove $sam from the group= $group  "  
+        
+        if ($manager.Equals($false)) {
+            if ($group -eq $ou) {
+            }
+            else {
+                Remove-ADGroupMember -Identity $group -Members $sam
+                write-output "remove $sam from the group= $group  "  
+            }
         }
     }
-
+    write-output "============================================" 
+    write-output "============================================" 
 }
 

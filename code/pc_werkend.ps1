@@ -2,7 +2,7 @@
 #https://4sysops.com/archives/powershell-classes-part-3-methods/
 
 
-$csvfile = ".\Documents\NEW_USER\groups.csv"
+$csvfile = ".\Documents\NEW_USER\users.csv"
 $logfile = ".\Documents\NEW_USER\logfile.txt"
 $date = Get-Date
 
@@ -17,34 +17,48 @@ $ou_afdeling = "PFafdeling"
 ##########################################
 
 ForEach ($gebruiker in $users ) {
+    $manager = $false
+    $ou = "null"
+    $group = "null"
     if ($gebruiker.Manager.Equals("X")) {
-        $ou = "Administratie" #manager
-        $group = "Administratie" #manager
+        $ou = "Directie" #manager
+        $group = "Directie" #
+        $manager = $true
+   
+
+        # if ($group.Equals("null")) {
+        #     $group = "Directie"
+        # }
+        write-output "group =  $group" 
+        write-output "manager? =  $manager" 
+
+
     }
     if ($gebruiker.IT.Equals("X")) {
-        $ou = "Automatisering" #it
+        $ou = "Administratie" #it
+        $group = "Administratie"
+        write-output "group =  $group" 
+
+    }
+    if ($gebruiker.boekhouding.Equals("X")) {
+        $ou = "Automatisering" #boekhouding 
         $group = "Automatisering"
+        write-output "group =  $group" 
     }
-    if ($gebruiker.Boekhouding.Equals("X")) {
-        $ou = "Directie" #boekhouding 
-        $group = "Directie"
-    }
-    if ($gebruiker.Logistiek.Equals("X")) {
+    if ($gebruiker.logistiek.Equals("X")) {
         $ou = "productie" #logistiek
         $group = "productie"
+        write-output "group =  $group" 
     }
     if ($gebruiker.ImportExport.Equals("X")) {
         $ou = "Staf" # importExport
         $group = "Staf"
+        write-output "group =  $group" 
     }
-
-    # $gebruiker.Voornaam= $_.Voornaam
-    # $gebruiker.Naam = $_.naam
-    # $gebruiker.Account = $_.account
-    $sam = $gebruiker.Voornaam+ "." + $gebruiker.Naam
+    $sam = $gebruiker.Voornaam + "." + $gebruiker.Naam
 
     try {
-        New-ADUser -Name $sam  -OtherAttributes @{'mail' = $gebruiker.Voornaam+ "." + $gebruiker.Naam + "@fabrikam.com"; UserPrincipalName = $gebruiker.Account}
+        New-ADUser -Name $sam  -OtherAttributes @{'mail' = $gebruiker.Voornaam + "." + $gebruiker.Naam + "@fabrikam.com"; UserPrincipalName = $gebruiker.Account}
         write-output "created user $sam" 
     }
     catch {
@@ -52,9 +66,16 @@ ForEach ($gebruiker in $users ) {
     }
 
     # add member to groop but do not delete it from the pre group
-    add-ADGroupMember -Identity $group -Members $sam
-    write-output "add $sam to the group $group" 
- 
+    if ($manager.Equals($true)) {
+        add-ADGroupMember -Identity "Directie" -Members $sam
+        write-output "add $sam to the group Manager" 
+
+    }
+    else {
+        add-ADGroupMember -Identity $group -Members $sam
+        write-output "add $sam to the group $group" 
+    }
+
     Move-ADobject (get-aduser $sam).DistinguishedName -TargetPath "OU=$OU,OU=$ou_afdeling,DC=$domain_controller,DC=be";
     write-output "move $sam to the OU= $ou and the afdeling= $ou_afdeling " 
 
@@ -64,8 +85,10 @@ ForEach ($gebruiker in $users ) {
             $huidigeGroupen += $group.name
         }
     }
-    
+                
     foreach ($group in $huidigeGroupen) {
+        
+        if ($manager.Equals($false)) {
         if ($group -eq $ou) {
         }
         else {
@@ -73,7 +96,14 @@ ForEach ($gebruiker in $users ) {
             write-output "remove $sam from the group= $group  "  
         }
     }
+    }
 
+
+    
+
+
+   
+    write-output "" 
 
 }
 
