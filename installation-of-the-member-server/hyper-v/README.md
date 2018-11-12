@@ -1,6 +1,6 @@
 # HYPER V
 
-![](../.gitbook/assets/screenshot-2018-11-06-at-11.15.54.png)
+![](../../.gitbook/assets/screenshot-2018-11-06-at-11.15.54.png)
 
 ## Performance Monitor on Hyper V
 
@@ -12,16 +12,16 @@
 
 In Performance Monitor under Data collector sets --&gt; User Defined: New: Data Collector Set.
 
-![](../.gitbook/assets/1.PNG)
+![](../../.gitbook/assets/1.PNG)
 
-![](../.gitbook/assets/2.PNG)
+![](../../.gitbook/assets/2.PNG)
 
-![](../.gitbook/assets/3.PNG)
+![](../../.gitbook/assets/3.PNG)
 
   
 We run this HyperVMonitor for +/- 1 minute. Normally we should let this run for a while to get a nice graph, but due to the small amount of time, we only could this run for one minute.
 
-![](../.gitbook/assets/4.PNG)
+![](../../.gitbook/assets/4.PNG)
 
-![Performance Monitor Graph](../.gitbook/assets/5.PNG)
+![Performance Monitor Graph](../../.gitbook/assets/5.PNG)
 
