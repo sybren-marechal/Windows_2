@@ -19,7 +19,7 @@ description: To do list
   * [x] CSV File Inlezen en Users aanmaken
   * [x] CSV File Inlezen en Users verplaatsen van OU
 * [ ] Besluit \(3 verschillende\)
-* [ ] Gebruikte Hardware
+* [x] Gebruikte Hardware documenteren
 * [ ] FlowChart PowerShell Code SYBREN
 * [ ] Bij alle Servers IP adressen zetten!
 
