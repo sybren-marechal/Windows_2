@@ -42,3 +42,5 @@ This is our configuration of VPN on the Domain Controller:
 
 ![](../.gitbook/assets/18.PNG)
 
+![](../.gitbook/assets/untitled.png)
+
