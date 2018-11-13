@@ -10,9 +10,9 @@ This is our configuration of VPN on the Domain Controller:
 
 ![](../.gitbook/assets/2.PNG)
 
-![Select VPN](../.gitbook/assets/3%20%281%29.PNG)
+![Select VPN](../.gitbook/assets/3%20%282%29.PNG)
 
-![Select WAN](../.gitbook/assets/4%20%281%29.PNG)
+![Select WAN](../.gitbook/assets/4%20%282%29.PNG)
 
 ![Select LAN](../.gitbook/assets/5.PNG)
 
