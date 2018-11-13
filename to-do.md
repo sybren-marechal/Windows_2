@@ -8,14 +8,15 @@ description: To do list
 
 * [x] Virtuele Server RODC
 * [ ] WSUS
-* [ ] FIle server
-* [ ] RDAC
+* [ ] VPN
+* [x] FIle server
+* [x] IDRDAC
 * [x] niet toelaten van andere USB Apparaten op cliets. Selecteren op Dell
 * [x] PC's aanpassen naar Ram 4GB
-* [ ] Aanmaken OU
-* [ ] Powershell
+* [x] Aanmaken OU
+* [x] Powershell
   * [x] CSV File Inlezen en Users aanmaken
-  * [ ] CSV File Inlezen en Users verplaatsen van OU
+  * [x] CSV File Inlezen en Users verplaatsen van OU
 
 
 
