@@ -4,6 +4,8 @@ description: Read-Only Domain Controller
 
 # RODC-Server
 
+![ip address RODC](../../.gitbook/assets/iprodc.PNG)
+
 **RODC on VCMSV5**
 
 * we install windows server 2016 on this virtual machine and choose for the windows server 2016 datacenter
