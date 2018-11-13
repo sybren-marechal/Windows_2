@@ -15,60 +15,7 @@
 
 ![](../.gitbook/assets/virtueleservers.png)
 
-#### WSUS-server on VCMSV3
-
-* adding the WSUS-role
-* Configure the WSUS settings via tools -&gt; WSUS 
-  * Before you begin -&gt; next
-  * Microsoft Update Improvement Program -&gt; next
-  * Choose Upstream Server -&gt; Syncronize from Microsoft Update
-  * Specify Proxy Server -&gt; we don't use a proxy server
-  * click start Connecting
-  * Choose Languages -&gt; English
-  * Choose Products -&gt; Windows Defender
-  * Choose Classifications -&gt; All Classifications
-  * Configure Sync Schedule -&gt; Synchronize manually
-  * Finished -&gt; don't select begin initial synchronization and click next
-  * then click finish and the Update Services will open
-  * 
-
-#### FILE-server on VCMSV4
-
-* ...
-
-**RODC on VCMSV5**
-
-* we install windows server 2016 on this virtual machine and choose for the windows server 2016 datacenter
-* When windows server 2016 datacenter is installed you need to configure a password for the administrator then you come in the command prompt
-* with the command sconfig you come into the sconfig menu.
-
-Installing the features in powershell window
-
-```text
-Add-WindowsFeature AD-Domain-Services, DNS
-```
-
-Controlling the windows features
-
-```text
-Get-WindowsFeature
-```
-
-Testing installation 
-
-```text
-Test-ADDSDomainControllerInstallation
-```
-
-foto
-
-Creating the RODC \(Read Only Domain Controller\)
-
-```text
-Install-ADDSDomainController -InstallDns -DomainName 'C-Medics.be' -ReadOnlyReplica -SiteName 'C-Medics' -WhatIf
-```
-
-foto
+#### 
 
 
 
