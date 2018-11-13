@@ -14,7 +14,7 @@ In Performance Monitor under Data collector sets --&gt; User Defined: New: Data 
 
 ![](../../.gitbook/assets/1.PNG)
 
-![](../../.gitbook/assets/2.PNG)
+![](../../.gitbook/assets/2%20%281%29.PNG)
 
 ![](../../.gitbook/assets/3.PNG)
 
@@ -23,5 +23,5 @@ We run this HyperVMonitor for +/- 1 minute. Normally we should let this run for 
 
 ![](../../.gitbook/assets/4.PNG)
 
-![Performance Monitor Graph](../../.gitbook/assets/5.PNG)
+![Performance Monitor Graph](../../.gitbook/assets/5%20%281%29.PNG)
 

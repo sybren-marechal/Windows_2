@@ -96,7 +96,7 @@ gpupdate /force
 
  This reapplies all policy settings. By default, only policy settings that have changed are applied.
 
-![](../../.gitbook/assets/11.PNG)
+![](../../.gitbook/assets/11%20%281%29.PNG)
 
 When we try to ping from the desktop pc \(PC1\) to our Domain Controller \(192.168.0.1\), we can see that the ping was successful.
 
