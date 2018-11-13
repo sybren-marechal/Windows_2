@@ -39,8 +39,6 @@ We want to configure a rule that allows ICMP response types:
 
 
 
-
-
 ## Only allow verified mouses and keyboards \(Rubber Ducky exercise\)
 
 At first, we determined the Hardware ID's from the mouses and keyboards.  

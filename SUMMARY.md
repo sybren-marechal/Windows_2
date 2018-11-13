@@ -6,11 +6,10 @@
   * [Active Directory](installation-of-the-first-server/active-directory.md)
   * [default domain policy](installation-of-the-first-server/group-policy-1/group-policy.md)
   * [Users](installation-of-the-first-server/users.md)
-  * [group policy](installation-of-the-first-server/group-policy-1/README.md)
+  * [Group Policy](installation-of-the-first-server/group-policy-1/README.md)
     * [default domain policy](installation-of-the-first-server/group-policy-1/group-policy.md)
     * [Default Domain Controllers Policy](installation-of-the-first-server/group-policy-1/domain-controller.md)
     * [clients](installation-of-the-first-server/group-policy-1/clients.md)
-    * [servers](installation-of-the-first-server/group-policy-1/servers.md)
   * [VPN](installation-of-the-first-server/vpn.md)
 * [member server](installation-of-the-member-server/README.md)
   * [HYPER V](installation-of-the-member-server/hyper-v/README.md)
@@ -29,5 +28,4 @@
 * [To Do](to-do.md)
 * [PASS](pass.md)
 * [iDRAC](idrac.md)
-* [Untitled](untitled.md)
 

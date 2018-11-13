@@ -26,8 +26,6 @@ To show the failed access to maps and files through the network, modify the Grou
 
 Select Failure because you only want to display the failed accesses to the different maps and files through the network.
 
-
-
 ### Event viewer
 
 We can see the different Audit successes and Audit failures in the event viewer.  
