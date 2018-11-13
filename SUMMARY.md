@@ -3,6 +3,7 @@
 * [Windows server](README.md)
 * [Server setup](server-setup.md)
 * [Domain controller](installation-of-the-first-server/README.md)
+  * [VPN](installation-of-the-first-server/vpn.md)
   * [Active Directory](installation-of-the-first-server/active-directory.md)
   * [default domain policy](installation-of-the-first-server/group-policy-1/group-policy.md)
   * [Users](installation-of-the-first-server/users.md)
