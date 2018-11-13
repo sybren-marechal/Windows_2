@@ -4,6 +4,8 @@ description: The different steps of installation of the first server
 
 # Domain controller
 
+## Setup for the Domain Controller
+
 * Allocate 100GB to the primary partition
 * Give the Administrator a secure password \(p. 29\)
 
