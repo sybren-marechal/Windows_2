@@ -4,7 +4,9 @@ description: DHCP-Server configuration on the member server
 
 # DHCP-Server
 
-#### DHCP-server on VCMSV2
+![ip address DHCP](../../.gitbook/assets/ipdhcp.PNG)
+
+**DHCP-server on VCMSV2**
 
 * adding the role DHCP
 * making a new scope
