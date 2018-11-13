@@ -13,7 +13,7 @@
 
 * making 5 virtual servers on the member server
 
-![](../.gitbook/assets/virtueleservers.png)
+![Schema Virtual Servers](../.gitbook/assets/schemavservers.PNG)
 
 #### 
 
