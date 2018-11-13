@@ -15,3 +15,5 @@ This is a project realised by the Vives students:
 
 Special thanks to our lector Tom Cordemans for helping us troubleshoot and solving different problems.
 
+![](.gitbook/assets/assets-lmwpmctt-ann6lcostk-lot3lgv-c01wlyrg75n-lot3cz0lgvwe7to4hvr-schema16okt.png)
+
