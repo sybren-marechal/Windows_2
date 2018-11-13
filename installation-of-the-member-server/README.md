@@ -15,23 +15,6 @@
 
 ![](../.gitbook/assets/virtueleservers.png)
 
-#### DHCP-server on VCMSV2
-
-* adding the role DHCP
-* making a new scope
-
-![Set the range of scope](../.gitbook/assets/scopefoto.jpg)
-
-* setting the lease duration to 1 day
-
-![Lease duration](../.gitbook/assets/leaseduur.jpg)
-
-* overview of the scope
-
-nieuwe foto toevoegen!!!!!!!!!!!!!!!!!!!!
-
-#### **red arrow on dhcp**
-
 #### WSUS-server on VCMSV3
 
 * adding the WSUS-role
