@@ -4,7 +4,7 @@ description: File-Server on the member server
 
 # File-Server
 
-
+![ip address File server](../../.gitbook/assets/ipfile.PNG)
 
 Installing the role File-server
 
