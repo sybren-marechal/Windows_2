@@ -7,8 +7,9 @@ description: To do list
 **To do:**
 
 * [x] Virtuele Server RODC
+* [ ] Documentatie
 * [ ] WSUS
-* [ ] VPN
+* [x] VPN
 * [x] FIle server
 * [x] IDRDAC
 * [x] niet toelaten van andere USB Apparaten op cliets. Selecteren op Dell
