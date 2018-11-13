@@ -4,6 +4,8 @@ description: WSUS configuration on the member server
 
 # WSUS-Server
 
+![ip address WSUS](../../.gitbook/assets/ipwsus.PNG)
+
 #### WSUS-server on VCMSV3
 
 * adding the WSUS-role
