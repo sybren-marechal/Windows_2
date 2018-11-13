@@ -1,6 +1,6 @@
 # Server setup
 
-**Perc installation**
+## **Perc installation**
 
 * While booting press '_CTRL + R'_ .
 * Press F2 and select: _Create new VD_
@@ -22,7 +22,7 @@
 
 ![](.gitbook/assets/image%20%2820%29.png)
 
-**Windows Server 2016 installation**
+## **Windows Server 2016 installation**
 
 * Download the Windows Server 2016 img file.
 * Flash the img file using Etcher.
