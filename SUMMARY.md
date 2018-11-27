@@ -3,7 +3,6 @@
 * [Windows server](README.md)
 * [Server setup](server-setup.md)
 * [Domain controller](installation-of-the-first-server/README.md)
-  * [Active Directory](installation-of-the-first-server/active-directory.md)
   * [Users](installation-of-the-first-server/users.md)
   * [OU-Structure](installation-of-the-first-server/ou-structure.md)
   * [Group Policy](installation-of-the-first-server/group-policy-1/README.md)

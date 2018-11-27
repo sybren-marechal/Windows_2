@@ -15,6 +15,10 @@ During the project we had some difficulties and had stress. There had to be done
 
 ## Conclusion Sybren Maréchal
 
+
+
+
+
 ## Conclusion Aython Houttekier
 
 
