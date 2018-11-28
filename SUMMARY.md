@@ -20,7 +20,6 @@
   * [Making the pc member of the domain](windows-10/pc-lid-maken-van-domain.md)
 * [IP configuration](ip-configuration.md)
 * [Used Hardware](used-hardware.md)
-* [PASS](pass.md)
 * [iDRAC](idrac.md)
 * [Trouble shooting](trouble-shooting/README.md)
   * [Time](trouble-shooting/time.md)

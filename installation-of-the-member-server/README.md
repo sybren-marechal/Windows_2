@@ -17,5 +17,11 @@
 
 #### 
 
+{% page-ref page="hyper-v/dhcp-server.md" %}
 
+{% page-ref page="hyper-v/wsus-server.md" %}
+
+{% page-ref page="hyper-v/file-server.md" %}
+
+{% page-ref page="hyper-v/rodc-server.md" %}
 
