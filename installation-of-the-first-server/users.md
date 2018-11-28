@@ -19,7 +19,7 @@ Add Users to the domain Users group. Go to "Member Of" and add the group of "Dom
 
 ### Flowchart
 
-
+![](../.gitbook/assets/screenshot-2018-11-29-at-00.46.08.png)
 
 ### Code
 

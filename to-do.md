@@ -7,7 +7,7 @@ description: To do list
 **To do:**
 
 * [x] Virtuele Server RODC
-* [ ] Documentatie
+* [ ] Documentatie compleet
 * [ ] WSUS
 * [x] VPN
 * [x] FIle server
@@ -18,10 +18,12 @@ description: To do list
 * [x] Powershell
   * [x] CSV File Inlezen en Users aanmaken
   * [x] CSV File Inlezen en Users verplaatsen van OU
-* [ ] Besluit \(3 verschillende\)
+* [x] Besluit Michiel
+* [x] Besluit Sybren
+* [ ] Besluit Aython
 * [x] Gebruikte Hardware documenteren
-* [ ] FlowChart PowerShell Code SYBREN
-* [ ] Bij alle Servers IP adressen zetten!
+* [x] FlowChart PowerShell Code SYBREN
+* [ ] Bij alle Servers IP adressen zetten! \(Aython\)
 
 
 
