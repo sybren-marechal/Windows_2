@@ -15,7 +15,11 @@ During the project we had some difficulties and had stress. There had to be done
 
 ## Conclusion Sybren Maréchal
 
+Het was zeer intressant om de geziene leerstof van Windowse 1 nu zelf om te kunnen zetten naar een praktische opstelling. Deze opdracht ging echter toch anders dan op Virtuele Machines. We leerden de mogelijke affecten en porblemen kennen die bij een hardware installatie te pas komen. Door geen vaste opstelling te hebben en telkens de werking op en af te breken kregen we probleemstellingen die ook in een bedrijf terecht zouden kunnen komen. BV zoals de verkeerde tijd op een pc waardoor de syncronisatie niet meer in werking gaat.
 
+Deze praktichse opstelling heeft ons dus zeer veel bijgeleerd. Alsook was het werken in team een nieuwe uitdaging voor dit project. We moesten goed op elkaar afgestemd zijn en communiceren om alles vlot te laten verlopen. Het bijhouden van een logboek hiep hier zeer sterk mee. Het uitvoeren en schrijven van een script was ook een zeer toffe ervaring, waarin ik mezelf heb kunnen verdiepen in de wereld van Powershell.
+
+Mijn algemeen gevoel van het Project is dat het toch moeilijker was dan verwacht, en we een zeer trage start hebben gemaakt waarin het voornamelijk troubleschooten was. Maar dat we hieruit zeer veel geleerd hebben en dit kunnen meenemen hebben naar de volgende lessen. Waardoor de de verloren tijd  konden inhalen. En uiteindelijk een werkende opstelling konden creeren 
 
 
 
