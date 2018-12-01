@@ -25,5 +25,9 @@ Mijn algemeen gevoel van het Project is dat het toch moeilijker was dan verwacht
 
 ## Conclusion Aython Houttekier
 
+Ik vond het een zeer leerrijke opdracht om een windows werk omgeving te maken die up en running moest zijn. In het begin van de opdracht verliep het niet echt vlot omdat we nogal wat problemen hadden met onze opstelling en ook omdat onze kennis van windows wat ver zat.
 
+Ik heb me vooral bezig gehouden met het opzetten van de member server. De member server moest functioneren als een hyper-V server waarop 4 virtuele servers stonden namelijk een DHCP, FILE, RODC en een WSUS-server. Het opzetten van deze virtuele servers is goed gegaan alleen bij de DHCP-server hadden we een eenmalig probleem dat hij niet meer authorized was, maar blijkbaar kwam dit omdat tijdens het opstarten van de servers de netwerkkabels niet goed aangesloten waren. We kunnen hieruit ook besluiten dat het niet echt ideaal was om telkens op het einde van de les de opstelling af te breken en aan het begin van de les de opstelling terug op te zetten.
+
+We kunnen concluderen dat het een zeer leerrijke opdracht was en dat het ons gelukt is om een werkende omgeving te creëren die zou kunnen gebruikt worden in een bedrijf.
 
